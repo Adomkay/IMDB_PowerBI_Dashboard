@@ -40,10 +40,10 @@ Drama movies perform best with PG-13 and R ratings. This may suggest that mature
 # Explanation of Weighted Sales
 In this analysis, weighted sales have been used to fairly distribute total sales across genres when a movie is mapped to multiple genres.
 
-# Why is this necessary? 
+## Why is this necessary? 
 Many movies belong to more than one genre (e.g., a movie could be both a "Comedy" and "Action" movie). If we attributed all the sales of the movie equally to each genre, it could lead to overrepresentation of certain genres.
 
-# How is it calculated?
+## How is it calculated?
 
 For each movie, the total sales are divided by the number of genres the movie belongs to.
 For example, if a movie has $100 million in total sales and belongs to 3 genres, the weighted sales for each genre would be $33.33 million. This ensures that the sales are attributed proportionally across the genres.
